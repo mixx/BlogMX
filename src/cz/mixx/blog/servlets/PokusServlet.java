@@ -11,15 +11,7 @@ import javax.servlet.http.*;
 public class PokusServlet extends HttpServlet
 {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public PokusServlet()
-    {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+	
 
 	/** 
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -29,7 +21,7 @@ public class PokusServlet extends HttpServlet
 		List<String> options = new ArrayList<String>();
 		options.add("První položka");
 		options.add("Druhá položka");
-		options.add("Žluťoučký kůň úpěl příliš ďábelské ódy.");
+		options.add("Příliš žluťoučký kůň úpěl ďábelské ódy.");
 		
 		request.setAttribute("options", options);
 		

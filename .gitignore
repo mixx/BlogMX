@@ -2,4 +2,4 @@
 .project
 .settings
 build/*
-WebContent/META-INF/MANIFEST.MF
+web/META-INF/MANIFEST.MF
