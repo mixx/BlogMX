@@ -19,4 +19,11 @@
     <servlet-name>PokusServlet</servlet-name>
     <url-pattern>/PokusServlet</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>cz.mixx.blog.listeners.PokusListener</listener-class>
+  </listener>
+  <context-param>
+    <param-name>dog</param-name>
+    <param-value>Alík</param-value>
+  </context-param>
 </web-app>
